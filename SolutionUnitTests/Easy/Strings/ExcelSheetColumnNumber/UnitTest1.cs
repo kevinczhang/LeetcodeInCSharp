@@ -7,10 +7,10 @@ namespace SolutionUnitTests.Easy.Strings.ExcelSheetColumnNumber
     public class UnitTest1
     {
         [TestMethod]
-        public void TestMethod1()
+        public void TestExcelSheetColumnNumber()
         {
-            LeetcodeInCSharp.Easy.Strings.ExcelSheetColumnNumber.Solution1 test = 
-                new LeetcodeInCSharp.Easy.Strings.ExcelSheetColumnNumber.Solution1();
+            LeetcodeInCSharp.Easy.Strings.ExcelSheetColumnNumber.Solution2 test = 
+                new LeetcodeInCSharp.Easy.Strings.ExcelSheetColumnNumber.Solution2();
             Assert.AreEqual(test.TitleToNumber("A"), 1);
         }
     }
