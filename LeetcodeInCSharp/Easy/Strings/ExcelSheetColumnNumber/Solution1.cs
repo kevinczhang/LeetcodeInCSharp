@@ -14,7 +14,7 @@ namespace LeetcodeInCSharp.Easy.Strings.ExcelSheetColumnNumber
             int num = 0;
             for (int i = s.Length - 1; i >= 0; i--)
             {
-                num += (int)((s[i] - 'A' + 1) * Math.Pow(26, s.Length - 1 - i));
+                num += (int)((s[i] - 'A' + 1) * System.Math.Pow(26, s.Length - 1 - i));
             }
             return num;
         }

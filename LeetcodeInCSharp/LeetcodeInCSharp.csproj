@@ -40,6 +40,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Easy\MathProblems\UglyNumber\Solution1.cs" />
     <Compile Include="Easy\Strings\ExcelSheetColumnNumber\Solution1.cs" />
     <Compile Include="Easy\Strings\ExcelSheetColumnNumber\Solution2.cs" />
     <Compile Include="Easy\Strings\LengthofLastWord\Solution1.cs" />
@@ -50,6 +51,7 @@
     <Folder Include="Easy\Arrays\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Easy\MathProblems\UglyNumber\Readme.txt" />
     <Content Include="Easy\Strings\ExcelSheetColumnNumber\Readme.txt" />
     <Content Include="Easy\Strings\LengthofLastWord\Readme.txt" />
   </ItemGroup>
