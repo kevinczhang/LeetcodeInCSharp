@@ -54,6 +54,7 @@
   <ItemGroup>
     <Compile Include="Easy\Strings\ExcelSheetColumnNumber\UnitTest1.cs" />
     <Compile Include="Easy\Strings\LengthofLastWord\UnitTest1.cs" />
+    <Compile Include="Medium\BitManipulation\UnitTest1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
