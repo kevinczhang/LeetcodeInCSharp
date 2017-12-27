@@ -55,11 +55,11 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <Content Include="Easy\ArrayProblems\ContainsDuplicateII\Readme.txt" />
+    <None Include="Easy\ArrayProblems\ContainsDuplicateII\Readme.md" />
     <None Include="Easy\ArrayProblems\ContainsDuplicate\Readme.md" />
-    <Content Include="Easy\MathProblems\UglyNumber\Readme.txt" />
-    <Content Include="Easy\StringProblems\ExcelSheetColumnNumber\Readme.txt" />
-    <Content Include="Easy\StringProblems\LengthofLastWord\Readme.txt" />
+    <None Include="Easy\MathProblems\UglyNumber\Readme.md" />
+    <None Include="Easy\StringProblems\ExcelSheetColumnNumber\Readme.md" />
+    <None Include="Easy\StringProblems\LengthofLastWord\Readme.md" />
     <Content Include="Medium\ArrayProblems\ContainsDuplicateIII\Readme.txt" />
     <Content Include="Medium\BinaryTreeProblems\LowestCommonAncestorofaBinaryTree\Readme.txt" />
     <Content Include="Medium\BitManipulation\MissingNumber\Readme.txt" />
