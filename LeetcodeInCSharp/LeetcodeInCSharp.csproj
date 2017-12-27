@@ -43,6 +43,7 @@
     <Compile Include="Common\DataStructures\TreeNode.cs" />
     <Compile Include="Easy\ArrayProblems\ContainsDuplicateII\Solution1.cs" />
     <Compile Include="Easy\ArrayProblems\ContainsDuplicate\Solution1.cs" />
+    <Compile Include="Easy\ArrayProblems\TwoSum\Solution1.cs" />
     <Compile Include="Easy\MathProblems\UglyNumber\Solution1.cs" />
     <Compile Include="Easy\StringProblems\ExcelSheetColumnNumber\Solution1.cs" />
     <Compile Include="Easy\StringProblems\ExcelSheetColumnNumber\Solution2.cs" />
@@ -57,6 +58,7 @@
   <ItemGroup>
     <None Include="Easy\ArrayProblems\ContainsDuplicateII\Readme.md" />
     <None Include="Easy\ArrayProblems\ContainsDuplicate\Readme.md" />
+    <None Include="Easy\ArrayProblems\TwoSum\readme.md" />
     <None Include="Easy\MathProblems\UglyNumber\Readme.md" />
     <None Include="Easy\StringProblems\ExcelSheetColumnNumber\Readme.md" />
     <None Include="Easy\StringProblems\LengthofLastWord\Readme.md" />

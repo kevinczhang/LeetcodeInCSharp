@@ -51,6 +51,7 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
+    <Compile Include="Easy\ArrayProblems\TwoSum\Solution1Tests.cs" />
     <Compile Include="Easy\StringProblems\ExcelSheetColumnNumber\Solution1Tests.cs" />
     <Compile Include="Easy\StringProblems\ExcelSheetColumnNumber\Solution2Tests.cs" />
     <Compile Include="Easy\StringProblems\LengthofLastWord\Solution1Tests.cs" />
