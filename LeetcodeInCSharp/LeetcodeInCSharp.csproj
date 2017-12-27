@@ -56,7 +56,7 @@
   <ItemGroup />
   <ItemGroup>
     <Content Include="Easy\ArrayProblems\ContainsDuplicateII\Readme.txt" />
-    <Content Include="Easy\ArrayProblems\ContainsDuplicate\Readme.txt" />
+    <None Include="Easy\ArrayProblems\ContainsDuplicate\Readme.md" />
     <Content Include="Easy\MathProblems\UglyNumber\Readme.txt" />
     <Content Include="Easy\StringProblems\ExcelSheetColumnNumber\Readme.txt" />
     <Content Include="Easy\StringProblems\LengthofLastWord\Readme.txt" />
