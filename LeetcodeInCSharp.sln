@@ -10,7 +10,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		README.md = README.md
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetcodeInCSharpTests", "LeetcodeInCSharpTests2\LeetcodeInCSharpTests.csproj", "{EFD957CB-E433-4938-99E1-03608A5C75DD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetcodeInCSharpTests", "LeetcodeInCSharpTests\LeetcodeInCSharpTests.csproj", "{EFD957CB-E433-4938-99E1-03608A5C75DD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
