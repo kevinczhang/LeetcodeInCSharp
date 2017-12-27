@@ -13,22 +13,17 @@ using System.Threading.Tasks;
 
 namespace LeetcodeInCSharp.Medium.ArrayProblems.ContainsDuplicateIII
 {
-    class Solution1
+    public class Solution1
     {
         public bool ContainsNearbyAlmostDuplicate(int[] nums, int k, int t)
         {
             if (nums.Length <= 1 || k < 0 || t < 0 || (k == 0 && t > 0)) return false;
-
             SortedSet<int> tree = new SortedSet<int>();
             for (int i=0; i<nums.Length; i++)
             {
-                for (int j = nums[i] - Math.Abs(nums[i] - t); j<= nums[i] + Math.Abs(nums[i] - t); j++)
-                {
-                    if (tree.Contains(j)) return true;
-                }
+                if(tree.Any(x => ((long)x - nums[i]) >= int.MinValue && ((long)x - nums[i]) <= int.MaxValue && Math.Abs(x - nums[i]) <= k)) return true;                
                 tree.Add(nums[i]);
-                if (i > k)
-                    tree.Remove(nums[i-k]);
+                if (i > k) tree.Remove(nums[i-k]);
             }
 
             return false;

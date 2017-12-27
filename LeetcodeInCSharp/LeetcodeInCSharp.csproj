@@ -41,23 +41,29 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Common\DataStructures\TreeNode.cs" />
+    <Compile Include="Easy\ArrayProblems\ContainsDuplicateII\Solution1.cs" />
+    <Compile Include="Easy\ArrayProblems\ContainsDuplicate\Solution1.cs" />
     <Compile Include="Easy\MathProblems\UglyNumber\Solution1.cs" />
-    <Compile Include="Easy\Strings\ExcelSheetColumnNumber\Solution1.cs" />
-    <Compile Include="Easy\Strings\ExcelSheetColumnNumber\Solution2.cs" />
-    <Compile Include="Easy\Strings\LengthofLastWord\Solution1.cs" />
+    <Compile Include="Easy\StringProblems\ExcelSheetColumnNumber\Solution1.cs" />
+    <Compile Include="Easy\StringProblems\ExcelSheetColumnNumber\Solution2.cs" />
+    <Compile Include="Easy\StringProblems\LengthofLastWord\Solution1.cs" />
+    <Compile Include="Medium\ArrayProblems\ContainsDuplicateIII\Solution1.cs" />
     <Compile Include="Medium\BinaryTreeProblems\LowestCommonAncestorofaBinaryTree\Solution1.cs" />
     <Compile Include="Medium\BitManipulation\MissingNumber\Solution1.cs" />
+    <Compile Include="Medium\GraphProblems\CourseSchedule\Solution1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="Easy\Arrays\" />
-  </ItemGroup>
-  <ItemGroup>
+    <Content Include="Easy\ArrayProblems\ContainsDuplicateII\Readme.txt" />
+    <Content Include="Easy\ArrayProblems\ContainsDuplicate\Readme.txt" />
     <Content Include="Easy\MathProblems\UglyNumber\Readme.txt" />
-    <Content Include="Easy\Strings\ExcelSheetColumnNumber\Readme.txt" />
-    <Content Include="Easy\Strings\LengthofLastWord\Readme.txt" />
+    <Content Include="Easy\StringProblems\ExcelSheetColumnNumber\Readme.txt" />
+    <Content Include="Easy\StringProblems\LengthofLastWord\Readme.txt" />
+    <Content Include="Medium\ArrayProblems\ContainsDuplicateIII\Readme.txt" />
     <Content Include="Medium\BinaryTreeProblems\LowestCommonAncestorofaBinaryTree\Readme.txt" />
     <Content Include="Medium\BitManipulation\MissingNumber\Readme.txt" />
+    <Content Include="Medium\GraphProblems\CourseSchedule\Readme.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

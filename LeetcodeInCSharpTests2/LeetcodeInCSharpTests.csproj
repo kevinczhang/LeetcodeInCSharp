@@ -3,11 +3,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{BFEF9918-1272-4D8F-8415-F71464F91A0E}</ProjectGuid>
+    <ProjectGuid>{EFD957CB-E433-4938-99E1-03608A5C75DD}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>SolutionUnitTests</RootNamespace>
-    <AssemblyName>SolutionUnitTests</AssemblyName>
+    <RootNamespace>LeetcodeInCSharpTests2</RootNamespace>
+    <AssemblyName>LeetcodeInCSharpTests2</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -16,6 +16,7 @@
     <ReferencePath>$(ProgramFiles)\Common Files\microsoft shared\VSTT\$(VisualStudioVersion)\UITestExtensionPackages</ReferencePath>
     <IsCodedUITest>False</IsCodedUITest>
     <TestProjectType>UnitTest</TestProjectType>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -45,23 +46,25 @@
     </When>
     <Otherwise>
       <ItemGroup>
-        <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework">
-          <Private>False</Private>
-        </Reference>
+        <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework" />
       </ItemGroup>
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="Medium\CouseSchedule\UnitTest1.cs" />
+    <Compile Include="Easy\StringProblems\ExcelSheetColumnNumber\Solution1Tests.cs" />
+    <Compile Include="Easy\StringProblems\ExcelSheetColumnNumber\Solution2Tests.cs" />
+    <Compile Include="Easy\StringProblems\LengthofLastWord\Solution1Tests.cs" />
+    <Compile Include="Medium\ArrayProblems\ContainsDuplicateIII\Solution1Tests.cs" />
+    <Compile Include="Medium\BitManipulation\MissingNumber\Solution1Tests.cs" />
+    <Compile Include="Medium\GraphProblems\CourseSchedule\Solution1Tests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\LeetcodeInCSharp\LeetcodeInCSharp.csproj">
-      <Project>{47ce85d1-c423-4688-9f85-dfe92b4a395e}</Project>
+      <Project>{47CE85D1-C423-4688-9F85-DFE92B4A395E}</Project>
       <Name>LeetcodeInCSharp</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup />
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
       <ItemGroup>

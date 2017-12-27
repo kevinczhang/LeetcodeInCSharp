@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LeetcodeInCSharp.Easy.Arrays.ContainsDuplicate
 {
-    class Solution1
+    public class Solution1
     {
         public bool ContainsDuplicate(int[] nums)
         {
